@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ソフトウェアエンジニア | ポートフォリオ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">ホーム</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">プロフィール</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">スキル</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">プロジェクト</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">コンタクト</a>
+                </li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn-nav">お問い合わせ</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    フリーランス開発者
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">革新的な</span>
+                    <span class="title-line gradient-text">ソフトウェア</span>
+                    <span class="title-line">エンジニア</span>
+                </h1>
+                <p class="hero-description">
+                    バックエンド開発からAI・機械学習まで、<br>
+                    最新技術で価値あるソリューションを創造します
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">年の経験</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">プロジェクト</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">専門分野</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>作品を見る</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>お問い合わせ</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="visual-container">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <div class="window-title">main.py</div>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line">
+                                <span class="line-number">1</span>
+                                <span class="code-text"><span class="keyword">import</span> <span class="module">tensorflow</span> <span class="keyword">as</span> <span class="module">tf</span></span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">2</span>
+                                <span class="code-text"><span class="keyword">from</span> <span class="module">sklearn</span> <span class="keyword">import</span> <span class="function">model_selection</span></span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">3</span>
+                                <span class="code-text"></span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">4</span>
+                                <span class="code-text"><span class="keyword">def</span> <span class="function">create_model</span>():</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">5</span>
+                                <span class="code-text">    <span class="keyword">return</span> <span class="string">"AI Solution"</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-elements">
+                        <div class="tech-badge badge-1">PHP</div>
+                        <div class="tech-badge badge-2">Python</div>
+                        <div class="tech-badge badge-3">AWS</div>
+                        <div class="tech-badge badge-4">AI/ML</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-bg">
+            <div class="bg-pattern"></div>
+        </div>
+        
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-content">
+                    <div class="section-header">
+                        <span class="section-tag">プロフィール</span>
+                        <h2 class="section-title">
+                            経験と情熱で<br>
+                            <span class="gradient-text">価値を創造</span>
+                        </h2>
+                    </div>
+                    
+                    <div class="about-text">
+                        <p class="lead-text">
+                            室蘭工業大学で情報工学を専攻し、株式会社リファクトで5年間の実務経験を積みました。
+                        </p>
+                        <p>
+                            バックエンド開発、AI・機械学習、クラウドインフラの3つの専門分野で、
+                            安定性と保守性を重視したソリューションを提供しています。
+                            2025年からフリーランスとして、より柔軟で価値のあるサービスを目指しています。
+                        </p>
+                    </div>
+                    
+                    <div class="journey-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>室蘭工業大学</h4>
+                                <p>工学部 情報工学科 卒業</p>
+                                <span class="timeline-year">2019</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>株式会社リファクト</h4>
+                                <p>ソフトウェアエンジニア（5年間）</p>
+                                <span class="timeline-year">2019-2024</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item active">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>フリーランス</h4>
+                                <p>独立・新たな挑戦</p>
+                                <span class="timeline-year">2025-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="profile-card">
+                        <div class="card-header">
+                            <div class="profile-avatar">
+                                <div class="avatar-placeholder">👨‍💻</div>
+                                <div class="status-indicator"></div>
+                            </div>
+                            <div class="profile-info">
+                                <h3>ソフトウェアエンジニア</h3>
+                                <p>札幌 → フリーランス</p>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-preview">
+                            <div class="skill-item">
+                                <span class="skill-name">Backend Development</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">AI/Machine Learning</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Cloud Infrastructure</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 92%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-tag">専門技術</span>
+                <h2 class="section-title">
+                    <span class="gradient-text">技術スタック</span>と経験
+                </h2>
+                <p class="section-description">
+                    5年間の実務経験で培った技術力と、常に学び続ける姿勢で最新技術にも対応
+                </p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="category-header">
+                        <div class="category-icon">🔧</div>
+                        <h3>バックエンド開発</h3>
+                    </div>
+                    <div class="category-content">
+                        <p>業務システムの設計・実装、RESTful APIやデータベース構築を主に担当。安定性と保守性の高いコードを意識した開発。</p>
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <span class="tech-name">PHP</span>
+                                <span class="tech-level">Expert</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-name">RESTful API</span>
+                                <span class="tech-level">Advanced</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-name">Database Design</span>
+                                <span class="tech-level">Advanced</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-name">Laravel</span>
+                                <span class="tech-level">Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <div class="category-icon">🤖</div>
+                        <h3>AI・機械学習</h3>
+                    </div>
+                    <div class="category-content">
+                        <p>イメージ認識・自然言語処理プロジェクトに関与。Pythonを使用してモデル設計やデータ前処理、精度チューニングを実施。</p>
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <span class="tech-name">Python</span>
+                                <span class="tech-level">Expert</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-name">TensorFlow</span>
+                                <span class="tech-level">Intermediate</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-name">Computer Vision</span>
+                                <span class="tech-level">Intermediate</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-name">NLP</span>
+                                <span class="tech-level">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <div class="category-icon">☁️</div>
+                        <h3>クラウド・インフラ</h3>
+                    </div>
+                    <div class="category-content">
+                        <p>AWSやGCPなどのクラウド環境でインフラストラクチャを設計し、CI/CDパイプラインを構築。</p>
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <span class="tech-name">AWS</span>
+                                <span class="tech-level">Advanced</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-name">GCP</span>
+                                <span class="tech-level">Intermediate</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-name">Docker</span>
+                                <span class="tech-level">Advanced</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-name">CI/CD</span>
+                                <span class="tech-level">Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-bg">
+            <div class="bg-gradient"></div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-tag">現在の取り組み</span>
+                <h2 class="section-title">
+                    進行中の<span class="gradient-text">プロジェクト</span>
+                </h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card featured" data-aos="fade-up">
+                    <div class="project-header">
+                        <div class="project-icon">🏯</div>
+                        <div class="project-status">
+                            <span class="status-badge in-progress">開発中</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>侍の歴史プロジェクト</h3>
+                        <p>日本で誕生した侍の歴史をテーマにした大規模プロジェクト。インタラクティ���な体験と最新技術を組み合わせた革新的なアプローチ。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">3D Graphics</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 35%"></div>
+                            </div>
+                            <span class="progress-text">35% 完成</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-header">
+                        <div class="project-icon">💼</div>
+                        <div class="project-status">
+                            <span class="status-badge active">進行中</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>フリーランス活動</h3>
+                        <p>2025年から本格的にフリーランサーとして活動開始。これまでの経験と技術を活かし、クライアントに価値あるソリューションを提供。</p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <span class="highlight-number">5+</span>
+                                <span class="highlight-label">クライアント</span>
+                            </div>
+                            <div class="highlight">
+                                <span class="highlight-number">100%</span>
+                                <span class="highlight-label">満足度</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-header">
+                        <div class="project-icon">🚀</div>
+                        <div class="project-status">
+                            <span class="status-badge planning">企画中</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>次世代Webアプリ</h3>
+                        <p>AI技術を活用した革新的なWebアプリケーションの開発を企画中。ユーザー体験の向上と業務効率化を目指します。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">AI Integration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <span class="section-tag">お問い合わせ</span>
+                        <h2 class="section-title">
+                            一緒に<br>
+                            <span class="gradient-text">創造しませんか</span>
+                        </h2>
+                    </div>
+                    
+                    <p class="contact-description">
+                        丁寧なコミュニケーション、納期厳守、柔軟な対応を大切にしています。
+                        相談に迅速に対応しますので、お気軽にご連絡ください。
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h4>メール</h4>
+                                <p>contact@portfolio-dev.jp</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M16 8A6 6 0 0 1 6 8C6 10 6 12 6 12S6 14 8 16C10 18 12 18 12 18S14 18 16 16C18 14 18 12 18 12S18 10 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h4>所在地</h4>
+                                <p>札幌, 北海道</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M16 4H18C18.5304 4 19.0391 4.21071 19.4142 4.58579C19.7893 4.96086 20 5.46957 20 6V20C20 20.5304 19.7893 21.0391 19.4142 21.4142C19.0391 21.7893 18.5304 22 18 22H6C5.46957 22 4.96086 21.7893 4.58579 21.4142C4.21071 21.0391 4 20.5304 4 20V6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <rect x="8" y="2" width="8" height="4" rx="1" ry="1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h4>クラウドワークス</h4>
+                                <p><a href="https://crowdworks.jp/public/employees/your-profile" target="_blank" style="color: var(--primary-600); text-decoration: none;">プロフィールを見る</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 19C-5 14 -5 4 9 4C23 4 23 14 9 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M6.5 9.5C6.5 10.6046 7.39543 11.5 8.5 11.5C9.60457 11.5 10.5 10.6046 10.5 9.5C10.5 8.39543 9.60457 7.5 8.5 7.5C7.39543 7.5 6.5 8.39543 6.5 9.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/your-username" target="_blank" style="color: var(--primary-600); text-decoration: none;">コードを見る</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M22 12H18L15 21L9 3L6 12H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h4>レスポンス</h4>
+                                <p>24時間以内</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-cta">
+                        <p>一緒に作る日を心から楽しみにしています。</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">お名前</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">メールアドレス</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">件名</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">選択してください</option>
+                                <option value="web-development">Web開発</option>
+                                <option value="ai-ml">AI・機械学習</option>
+                                <option value="cloud-infrastructure">クラウド・インフラ</option>
+                                <option value="consultation">技術相談</option>
+                                <option value="other">その他</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">メッセージ</label>
+                            <textarea id="message" name="message" rows="5" placeholder="プロジェクトの詳細や要件をお聞かせください..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary full-width">
+                            <span>メッセージを送信</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <polygon points="22,2 15,22 11,13 2,9 22,2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">Portfolio</span>
+                    </div>
+                    <p>革新的なソリューションで価値を創造</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>ナビゲーション</h4>
+                        <a href="#home">ホーム</a>
+                        <a href="#about">プロフィール</a>
+                        <a href="#experience">スキル</a>
+                        <a href="#projects">プロジェクト</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>技術分野</h4>
+                        <a href="#experience">バックエンド開発</a>
+                        <a href="#experience">AI・機械学習</a>
+                        <a href="#experience">クラウド・インフラ</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ソフトウェアエンジニア ポートフォリオ. All rights reserved.</p>
+                <div class="footer-social">
+                    <span>Made with ❤️ in Sapporo</span>
+                    <div style="display: flex; gap: 16px; align-items: center; margin-top: 8px;">
+                        <a href="mailto:contact@portfolio-dev.jp" style="color: rgba(255, 255, 255, 0.6); text-decoration: none;">📧</a>
+                        <a href="https://github.com/your-username" target="_blank" style="color: rgba(255, 255, 255, 0.6); text-decoration: none;">💻</a>
+                        <a href="https://crowdworks.jp/public/employees/your-profile" target="_blank" style="color: rgba(255, 255, 255, 0.6); text-decoration: none;">💼</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
